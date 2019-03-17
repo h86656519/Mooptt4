@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="看板">
+        <item>一般網頁</item>
+        <item>json 網頁</item>
+        <item>影音串流</item>
+
+    </string-array>
+
+    <string-array name="看板副標題">
+        <item>副標題1</item>
+        <item>副標題2</item>
+        <item>副標題3</item>
+    </string-array>
+
+
+</resources>
+
+

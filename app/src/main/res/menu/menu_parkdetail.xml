@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+
+        android:id="@+id/menu_parkname"
+        android:title="停車場名稱" />
+    <item
+        android:id="@+id/menu_payex"
+        android:title="收費資訊" />
+    <item
+        android:id="@+id/menu_address"
+        android:title="詳細地址" />
+    <item
+        android:id="@+id/impeach"
+        android:title="剩餘車位數: " />
+</menu>

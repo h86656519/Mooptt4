@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="設定">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="CB"
+            android:title="自動登錄" />
+        <ListPreference
+            android:dialogTitle="字體顏色"
+            android:entries="@array/color"
+            android:entryValues="@array/color"
+            android:key="LP"
+            android:defaultValue="@string/def_theme"
+            android:title="字體顏色" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

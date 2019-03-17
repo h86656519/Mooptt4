@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Moo_ptt4</string>
+    <string name="Myflovor_tab">我的最愛</string>
+    <string name="Main_Menu_tab">主選單</string>
+    <string name="All_group">分類看板</string>
+
+    <string name="def_theme">黑色</string>
+    <string name="pref_header_setting">一般設定</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+    <string name="title_activity_preference_fragment">PreferenceActivity结合PreferenceFragment</string>
+    <string name="question">為什麼交友app上的恐龍妹們竟然條件會開一大堆~ 還寫不約炮 ? </string>
+    <string name="cancel">取消</string>
+    <string name="OK">回復</string>
+    <string name="answer">答案</string>
+
+    <string-array name="color">
+        <item>黑色</item>
+        <item>藍色</item>
+    </string-array>
+    <string-array name="city">
+        <item>北京</item>
+        <item>上海</item>
+        <item>广州</item>
+        <item>深圳</item>
+    </string-array>
+    <string-array name="country">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

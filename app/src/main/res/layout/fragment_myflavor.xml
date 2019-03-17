@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyflavorFragment">
+
+
+    <ListView
+        android:id="@+id/myflavor_listView"
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp" />
+
+    <!--<include layout="@layout/bottom_sheet3" />-->
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:behavior_hideable="false"
+        app:behavior_peekHeight="50dp"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/buttonsheet3fab"
+                android:layout_width="125dp"
+                android:layout_height="82dp"
+                android:layout_gravity="right"
+                android:background="@color/black"
+                android:onClick="bottomsheetclick"
+                android:src="@drawable/baseline_import_export_white_24dp"
+                app:backgroundTint="@color/black"
+                app:fabSize="mini" />
+            <!--app:elevation="@dimen/fab_margin"-->
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="left"
+                android:paddingLeft="35dp"
+                android:text="搜尋"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/調整看板順序"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="left"
+                android:paddingLeft="35dp"
+                android:text="調整看板順序"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

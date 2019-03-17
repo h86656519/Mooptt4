@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/info_ID"
+        android:title="查詢作者資訊" />
+    <item
+        android:id="@+id/SendMsg"
+        android:title="傳送訊息給作者" />
+    <item
+        android:id="@+id/sameTitle"
+        android:title="同標題文章" />
+    <item
+        android:id="@+id/impeach"
+        android:title="檢舉不當內容" />
+</menu>
