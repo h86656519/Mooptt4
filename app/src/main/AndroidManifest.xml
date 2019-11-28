@@ -14,27 +14,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.user.moo_ptt4.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Forums" />
-        <activity android:name=".Park_json" />
+        <activity android:name="com.example.user.moo_ptt4.Forums" />
+        <activity android:name="com.example.user.moo_ptt4.Park_json" />
         <activity
-            android:name=".PreferenceActivityWithPreferenceFragment"
+            android:name="com.example.user.moo_ptt4.PreferenceActivityWithPreferenceFragment"
             android:label="@string/title_activity_preference_fragment" />
-        <activity android:name=".SettingsActivity" />
+        <activity android:name="com.example.user.moo_ptt4.SettingsActivity" />
 
         <service
-            android:name=".DelayedMessageService"
+            android:name="com.example.user.moo_ptt4.DelayedMessageService"
             android:exported="false" />
 
-        <activity android:name=".NotificationActivity" />
-        <activity android:name=".FAQActivity"></activity>
+        <activity android:name="com.example.user.moo_ptt4.NotificationActivity" />
+        <activity android:name="com.example.user.moo_ptt4.FAQActivity"></activity>
 
-        <receiver android:name=".MyReceiver">
+        <receiver android:name="com.example.user.moo_ptt4.MyReceiver">
             <intent-filter>
                 <action android:name="WifiManager.WIFI_STATE_CHANGED_ACTION"></action>
             </intent-filter>

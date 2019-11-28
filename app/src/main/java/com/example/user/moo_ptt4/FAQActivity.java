@@ -14,6 +14,8 @@ import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.Toast;
 
+import user.Moo_ptt.R;
+
 public class FAQActivity extends AppCompatActivity {
     private SQLiteDatabase db;
     private Cursor cursor;

@@ -12,6 +12,8 @@ import android.util.AttributeSet;
 
 import java.util.List;
 
+import user.Moo_ptt.R;
+
 public class PreferenceActivityWithPreferenceFragment extends AppCompatPreferenceActivity {
 
 

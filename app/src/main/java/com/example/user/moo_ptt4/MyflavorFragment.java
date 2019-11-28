@@ -30,6 +30,8 @@ import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 import com.firebase.client.ValueEventListener;
 
+import user.Moo_ptt.R;
+
 
 /**
  * A simple {@link Fragment} subclass.

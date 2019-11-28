@@ -32,6 +32,8 @@ import android.os.Bundle;
 import java.util.ArrayList;
 import java.util.List;
 
+import user.Moo_ptt.R;
+
 
 public class AllGroupFragment extends Fragment implements DialogInterface.OnCancelListener {
     Application app;

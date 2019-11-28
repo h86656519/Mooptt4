@@ -11,6 +11,8 @@ import android.graphics.Color;
 import android.os.Build;
 import android.support.v4.app.NotificationCompat;
 
+import user.Moo_ptt.R;
+
 
 public class DelayedMessageService extends IntentService {
 

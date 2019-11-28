@@ -11,6 +11,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 
+import user.Moo_ptt.R;
+
 public class SettingsActivity extends PreferenceActivity implements View.OnClickListener {
     CheckBox cb;
 

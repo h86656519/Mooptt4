@@ -19,6 +19,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import user.Moo_ptt.R;
+
 public class Forums extends AppCompatActivity {
     ListView listView;
     TextView title_view;

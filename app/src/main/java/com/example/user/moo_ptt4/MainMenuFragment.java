@@ -17,6 +17,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import user.Moo_ptt.R;
+
 
 /**
  * A simple {@link Fragment} subclass.

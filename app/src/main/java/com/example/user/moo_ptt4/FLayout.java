@@ -15,6 +15,8 @@ import com.nex3z.flowlayout.FlowLayout;
 import java.util.ArrayList;
 import java.util.List;
 
+import user.Moo_ptt.R;
+
 public class FLayout extends ViewGroup implements View.OnClickListener {
     private static final String LOG_TAG = com.nex3z.flowlayout.FlowLayout.class.getSimpleName();
 

@@ -11,6 +11,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.GridView;
 
+import user.Moo_ptt.R;
+
 public class SettingTheme extends AppCompatActivity {
     private TabLayout mTablayout,tab;
     private ViewPager mViewPager;

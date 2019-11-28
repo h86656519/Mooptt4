@@ -24,6 +24,8 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.zip.Inflater;
 
+import user.Moo_ptt.R;
+
 
 /**
  * A simple {@link Fragment} subclass.

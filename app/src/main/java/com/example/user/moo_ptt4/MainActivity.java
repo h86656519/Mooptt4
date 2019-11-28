@@ -21,6 +21,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import user.Moo_ptt.R;
+
 public class MainActivity extends AppCompatActivity {
     ViewPager pager;
     Application app;
